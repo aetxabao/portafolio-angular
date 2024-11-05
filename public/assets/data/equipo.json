@@ -1,0 +1,23 @@
+[
+    {
+        "foto": "team-1.jpg",
+        "frase": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "nombre": "Fernando Herrera",
+        "subtitulo": "Instructor",
+        "twitter": "@fernando_her85" 
+    },
+    {        
+        "foto": "team-2.jpg",
+        "frase": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+        "nombre": "Melisa Flores",
+        "subtitulo": "Ingeniera Sistemas",
+        "twitter": "@melisa_flor" 
+    },
+    {
+        "foto": "team-3.jpg",
+        "frase": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "nombre": "Juan Carlos",
+        "subtitulo": "Diseñador",
+        "twitter": "@juan_carlos" 
+    }
+]
