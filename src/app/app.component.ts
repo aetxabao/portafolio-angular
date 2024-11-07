@@ -7,6 +7,7 @@ import { AboutComponent } from "./pages/about/about.component";
 import { ItemComponent } from "./pages/item/item.component";
 import { InfoPaginaService } from './services/info-pagina.service';
 import { ProductosService } from './services/productos.service';
+import { SearchComponent } from './pages/search/search.component';
 
 
 @Component({
@@ -18,7 +19,8 @@ import { ProductosService } from './services/productos.service';
     FooterComponent, 
     PortafolioComponent, 
     AboutComponent, 
-    ItemComponent
+    ItemComponent,
+    SearchComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

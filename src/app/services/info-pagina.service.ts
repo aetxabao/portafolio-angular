@@ -14,7 +14,7 @@ export class InfoPaginaService {
   equipo: any[] = []; 
 
   constructor(private http: HttpClient) {
-    console.log('Servicio de infoPagina listo');
+    // console.log('Servicio de infoPagina listo');
     // Leer el archivo JSON
     // this.http.get('assets/data/data-pagina.json')
     //   // .subscribe( (resp: any) => {
@@ -45,7 +45,7 @@ export class InfoPaginaService {
     this.http.get('assets/data/equipo.json')
       .subscribe( (resp: any) => {
         this.equipo = resp;
-        console.log(resp);
+        // console.log(resp);
         // console.log(resp.twitter);
       });
   }
