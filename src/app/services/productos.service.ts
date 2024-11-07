@@ -40,7 +40,7 @@ export class ProductosService {
     return  docData(doc(this.fs, `productos/${id}`), {idField:  'id'}) as Observable<ProductoDescripcion>;
   }
 
-  public buscarProducto(termino: string) {
+  public buscarProductos(termino: string) {
     console.log('Buscando producto');
     // this.productosFiltrado =
     // this.productos.filter( producto => {
